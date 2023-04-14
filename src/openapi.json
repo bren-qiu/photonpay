@@ -4538,8 +4538,6 @@
         }
       }
     },
-
-    // matrix相关接口
     "/matrix/matrixApi/createMatrixAccount": {
       "post": {
         "tags": ["账户"],
