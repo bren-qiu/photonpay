@@ -13972,7 +13972,6 @@
         "description": "响应对象"
       },
 
-      // 1.创建matrixAccount相关请求响应
       "createMatrixAccountReq": {
         "title": "createMatrixAccountReq",
         "required": ["matrixAccountName"],
@@ -14017,7 +14016,6 @@
           }
         }
       },
-      // 2.matrixAccount查询
       "pageMatrixAccountInfoResp": {
         "title": "pageMatrixAccountInfoResp",
         "type": "object",
