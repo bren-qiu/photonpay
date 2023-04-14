@@ -4386,7 +4386,7 @@
             "style": "form",
             "explode": true,
             "schema": {
-              "type": "bigDecimal"
+              "type": "number"
             }
           },
           {
@@ -4397,7 +4397,7 @@
             "style": "form",
             "explode": true,
             "schema": {
-              "type": "bigDecimal"
+              "type": "number"
             }
           }
         ],
@@ -7995,7 +7995,7 @@
         "type": "object",
         "properties": {
           "file": {
-            "type": "stream",
+            "type": "object",
             "description": "二进制文件流"
           }
         }
@@ -9693,7 +9693,7 @@
             "description": "手续费扣费金额"
           },
           "feeDetailJson": {
-            "type": "json",
+            "type": "object",
             "description": "手续费扣费金额明细。transactionFeeAmount：交易手续费金额；crossBroadFeeAmount：跨境手续费金额；conversionFeeAmount：汇率转换费金额；refundFeeAmount：退款手续费金额；voidFeeAmount：撤销手续费金额；gatewayFeeAmount：网关手续费金额；authFailedFeeAmount：失败交易手续费金额"
           },
 
@@ -9715,7 +9715,7 @@
             "description": "手续费返还金额"
           },
           "feeReturnDetailJson": {
-            "type": "json",
+            "type": "object",
             "description": "手续费返还金额明细。transactionFeeReturnAmount：交易手续费退回金额；crossBroadFeeReturnAmount：跨境手续费退回金额；conversionFeeReturnAmount：汇率转换费退回金额；gatewayFeeReturnAmount：网关手续费返还金额；refundFeeReturnAmount：退款手续费返还金额"
           },
 
@@ -9893,11 +9893,11 @@
             "description": "手续费返还金额"
           },
           "feeDetailJson": {
-            "type": "json",
+            "type": "object",
             "description": "手续费扣费金额明细。transactionFeeAmount：交易手续费金额；crossBroadFeeAmount：跨境手续费金额；conversionFeeAmount：汇率转换费金额；refundFeeAmount：退款手续费金额；voidFeeAmount：撤销手续费金额；gatewayFeeAmount：网关手续费金额；authFailedFeeAmount：失败交易手续费金额"
           },
           "feeReturnDetailJson": {
-            "type": "json",
+            "type": "object",
             "description": "手续费返还金额明细。transactionFeeReturnAmount：交易手续费退回金额；crossBroadFeeReturnAmount：跨境手续费退回金额；conversionFeeReturnAmount：汇率转换费退回金额；gatewayFeeReturnAmount：网关手续费返还金额；refundFeeReturnAmount：退款手续费返还金额"
           },
           "arrivalAccount": {
@@ -10419,7 +10419,7 @@
             "description": "昵称"
           },
           "cardBalance": {
-            "type": "bigDecimal",
+            "type": "number",
             "description": "充值卡余额"
           }
         }
@@ -10804,17 +10804,17 @@
             "description": "填入持卡人id后，虚拟卡将属于此持卡人。如不填则默认使用默认持卡人信息进行开卡。"
           },
           "maxOnPercent": {
-            "type": "number(13)",
+            "type": "number",
             "description": "单笔交易最大金额。为空时不做限制，非空时大于1。默认最高限额为20000USD，如有需要请联系业务人员申请。",
             "format": "bigdecimal"
           },
           "maxOnDaily": {
-            "type": "number(13)",
+            "type": "number",
             "description": "日交易限额。为空时不做限制，非空时大于1。默认最高限额为20000USD，如有需要请联系业务人员申请。",
             "format": "bigdecimal"
           },
           "maxOnMonthly": {
-            "type": "number(13)",
+            "type": "number",
             "description": "月交易限额。为空时不做限制，非空时大于1。默认最高限额为20000USD，如有需要请联系业务人员申请。",
             "format": "bigdecimal"
           },
@@ -10827,7 +10827,7 @@
             ]
           },
           "transactionLimit": {
-            "type": "number(15,2)",
+            "type": "number",
             "description": "可交易额度。transactionLimitType值为limited时，不能为空。",
             "format": "bigdecimal"
           },
@@ -10836,12 +10836,12 @@
             "description": "您需要用于充值的币种钱包余额账户ID号，您可在“钱包”接口中进行查询您的账户ID。"
           },
           "rechargeAmount": {
-            "type": "number(15,2)",
+            "type": "number",
             "description": "充值金额，您想从币种钱包余额往卡里充值的资金。我们将为计算出最后实际到卡内的金额。充值金额和到账金额择一填写即可。",
             "format": "bigdecimal"
           },
           "arrivalAmount": {
-            "type": "number(15,2)",
+            "type": "number",
             "description": "到账金额，您希望充值到账金额是多少，我们将为您计算出需要扣取您所选钱包余额的金额。充值金额和到账金额择一填写即可。",
             "format": "bigdecimal"
           }
@@ -10871,7 +10871,7 @@
         "type": "object",
         "properties": {
           "cardholderId": {
-            "type": "String",
+            "type": "string",
             "description": "持卡人卡ID"
           }
         }
@@ -10900,7 +10900,7 @@
         "type": "object",
         "properties": {
           "cardholderId": {
-            "type": "String",
+            "type": "string",
             "description": "持卡人卡ID，每个持卡人的唯一编号"
           }
         }
@@ -10927,7 +10927,7 @@
         "type": "object",
         "properties": {
           "requestId": {
-            "type": "String",
+            "type": "string",
             "description": "商户请求流水号，每笔交易的唯一请求号，不可重复。"
           },
           "status": {
@@ -10955,7 +10955,7 @@
             "description": "matrix账户号"
           },
           "cardId": {
-            "type": "String",
+            "type": "string",
             "description": "卡ID，每张卡的唯一编号"
           },
           "memberId": {
@@ -11075,7 +11075,7 @@
             "description": "matrix账户号"
           },
           "cardId": {
-            "type": "String",
+            "type": "string",
             "description": "卡ID，每张卡的唯一编号"
           },
           "memberId": {
@@ -11238,7 +11238,7 @@
         "type": "object",
         "properties": {
           "cardId": {
-            "type": "String",
+            "type": "string",
             "description": "卡ID，每张卡的唯一编号"
           },
           "cardNo": {
@@ -11263,11 +11263,11 @@
         "type": "object",
         "properties": {
           "requestId": {
-            "type": "String",
+            "type": "string",
             "description": "请保存此ID，带入充值下单接口完成充值。"
           },
           "rateContractId": {
-            "type": "String",
+            "type": "string",
             "description": "汇率合约ID"
           },
           "accountId": {
@@ -11279,15 +11279,15 @@
             "description": "充值币种"
           },
           "rechargeAmount": {
-            "type": "bigDecimal",
+            "type": "number",
             "description": "充值金额"
           },
           "exchangeRate": {
-            "type": "bigDecimal",
+            "type": "number",
             "description": "汇率"
           },
           "quotationTime": {
-            "type": "datetime",
+            "type": "string",
             "description": "汇率报价时间"
           },
           "effectiveQuotationTime": {
@@ -11299,7 +11299,7 @@
             "description": "充值手续费币种"
           },
           "rechargeFee": {
-            "type": "bigDecimal",
+            "type": "number",
             "description": "充值手续费"
           },
           "arrivalAmountCurrency": {
@@ -11307,7 +11307,7 @@
             "description": "到账金额币种"
           },
           "arrivalAmount": {
-            "type": "bigDecimal",
+            "type": "number",
             "description": "到账金额"
           }
         },
@@ -11320,7 +11320,7 @@
         "type": "object",
         "properties": {
           "transactionId": {
-            "type": "String",
+            "type": "string",
             "description": "交易ID"
           },
           "cardId": {
@@ -11328,7 +11328,7 @@
             "description": "卡ID"
           },
           "rateContractId": {
-            "type": "String",
+            "type": "string",
             "description": "汇率合约ID"
           },
 
@@ -11337,15 +11337,15 @@
             "description": "充值币种"
           },
           "rechargeAmount": {
-            "type": "bigDecimal",
+            "type": "number",
             "description": "充值金额"
           },
           "exchangeRate": {
-            "type": "bigDecimal",
+            "type": "number",
             "description": "汇率"
           },
           "createdAt": {
-            "type": "datetime",
+            "type": "string",
             "description": "创建时间"
           },
           "status": {
@@ -11361,7 +11361,7 @@
             "description": "充值手续费币种"
           },
           "rechargeFee": {
-            "type": "bigDecimal",
+            "type": "number",
             "description": "充值手续费"
           },
           "arrivalAmountCurrency": {
@@ -11369,11 +11369,11 @@
             "description": "到账金额币种"
           },
           "arrivalAmount": {
-            "type": "bigDecimal",
+            "type": "number",
             "description": "到账金额"
           },
           "cardBalance": {
-            "type": "bigDecimal",
+            "type": "number",
             "description": "卡内余额"
           }
         },
@@ -11386,11 +11386,11 @@
         "type": "object",
         "properties": {
           "transactionId": {
-            "type": "String",
+            "type": "string",
             "description": "交易ID"
           },
           "createdAt": {
-            "type": "datetime",
+            "type": "string",
             "description": "创建时间"
           },
           "cardId": {
@@ -11402,11 +11402,11 @@
             "description": "掩码卡号"
           },
           "returnFeeAmount": {
-            "type": "bigDecimal",
+            "type": "number",
             "description": "充值退回手续费"
           },
           "arrivalAmount": {
-            "type": "bigDecimal",
+            "type": "number",
             "description": "到账金额"
           },
           "status": {
@@ -11659,7 +11659,7 @@
             "description": "卡ID"
           },
           "returnAmount": {
-            "type": "bigDecimal",
+            "type": "number",
             "description": "退回金额"
           }
         }
@@ -13957,7 +13957,7 @@
         "type": "object",
         "properties": {
           "matrixAccount": {
-            "type": "String",
+            "type": "string",
             "description": "matrix账户号",
             "enum": [
               "MI1234567xxxx"
@@ -14046,7 +14046,7 @@
             ]
           },
           "transferAmount": {
-            "type": "number(13)",
+            "type": "number",
             "description": "转账金额",
             "format": "bigdecimal",
             "enum": [
@@ -14083,7 +14083,7 @@
         "type": "object",
         "properties": {
           "file": {
-            "type": "File",
+            "type": "object",
             "description": "要上传的文件"
           }
         }
