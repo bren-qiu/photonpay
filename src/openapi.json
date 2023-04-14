@@ -13382,7 +13382,6 @@
         "description": "响应对象"
       },
 
-      // payout V2
       "pageResp«OpenApiV2OrderListResp»": {
         "title": "pageResp«OpenApiV2OrderListResp»",
         "type": "object",
