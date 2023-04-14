@@ -11,14 +11,14 @@ servers:
 paths:
   /pets:
     get:
-      summary: List all pets
+      summary: 查询所有宠物
       operationId: listPets
       tags:
         - pets
       parameters:
         - name: limit
           in: query
-          description: How many items to return at one time (max 100)
+          description: 返回多少数据(最大 100)
           required: false
           schema:
             type: integer
@@ -43,13 +43,13 @@ paths:
                       type: string
   /pets/{petId}:
     get:
-      summary: Info for a specific pet
+      summary: 根据 ID 查询宠物信息
       operationId: showPetById
       parameters:
         - name: petId
           in: path
           required: true
-          description: The id of the pet to retrieve
+          description: 这里是宠物信息描述
           schema:
             type: string
       responses:
