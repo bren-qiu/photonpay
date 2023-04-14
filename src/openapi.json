@@ -2744,7 +2744,7 @@
             "style": "simple",
             "explode": false,
             "schema": {
-              "type": "timestamp"
+              "type": "string"
             }
           },
           {
@@ -2755,7 +2755,7 @@
             "style": "simple",
             "explode": false,
             "schema": {
-              "type": "timestamp"
+              "type": "string"
             }
           },
           {
@@ -2766,7 +2766,7 @@
             "style": "simple",
             "explode": false,
             "schema": {
-              "type": "timestamp"
+              "type": "string"
             }
           },
           {
@@ -2777,7 +2777,7 @@
             "style": "simple",
             "explode": false,
             "schema": {
-              "type": "timestamp"
+              "type": "string"
             }
           },
           {
@@ -6578,7 +6578,7 @@
             "description": "原始交易币种"
           },
           "origTransactionAmount": {
-            "type": "BigDecimal",
+            "type": "number",
             "description": "原始交易金额"
           },
           "chargeBackAlertRefundCurrency": {
@@ -6586,7 +6586,7 @@
             "description": "拒付预警退款币种"
           },
           "chargeBackAlertRefundAmount": {
-            "type": "BigDecimal",
+            "type": "number",
             "description": "拒付预警退款金额"
           },
           "chargeBackAlertRefundReversalCurrency": {
@@ -6594,7 +6594,7 @@
             "description": "拒付预警退款撤销币种"
           },
           "chargeBackAlertRefundReversalAmount": {
-            "type": "BigDecimal",
+            "type": "number",
             "description": "拒付预警退款撤销金额"
           },
           "origTransactionDate": {
@@ -10796,7 +10796,7 @@
             "description": "您需要填入你想开卡的卡bin信息，目前支持的卡bin信息可在卡bin接口中查询。"
           },
           "cardExpirationDate": {
-            "type": "int",
+            "type": "number",
             "description": "卡有效期。您可填写此卡的有效期，以月为计数单位。如：您需要虚拟卡的有效期为1年，则输入“12”即可。如不上传，则由系统自动分配虚拟卡有效期。（最小12个月，最大35个月）"
           },
           "cardholderId": {
@@ -11291,7 +11291,7 @@
             "description": "汇率报价时间"
           },
           "effectiveQuotationTime": {
-            "type": "int",
+            "type": "number",
             "description": "汇率报价有效时长"
           },
           "rechargeFeeCurrency": {
