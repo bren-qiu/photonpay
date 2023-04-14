@@ -1972,52 +1972,6 @@
         }
       }
     },
-    // "/order-declaration/open/uploadB2bOrderFile": {
-    //   "post": {
-    //     "tags": [
-    //       "还原申报订单上传"
-    //     ],
-    //     "summary": "B2B结汇文件上传",
-    //     "parameters": [
-    //       {
-    //         "name": "X-PD-TOKEN",
-    //         "in": "header",
-    //         "description": "访问令牌",
-    //         "required": true,
-    //         "style": "simple",
-    //         "explode": false,
-    //         "schema": {
-    //           "type": "string"
-    //         }
-    //       },
-    //     ],
-    //     "operationId": "uploadB2bOrderFileUsingPOST",
-    //     "requestBody": {
-    //       "content": {
-    //         "multipart/form-data": {
-    //           "schema": {
-    //             "$ref": "#/components/schemas/UploadB2bOrderFileReq"
-    //           }
-    //         }
-    //       }
-    //     },
-    //     "responses": {
-    //       "200": {
-    //         "description": "OK",
-    //         "content": {
-    //           "*/*": {
-    //             "schema": {
-    //               "$ref": "#/components/schemas/UploadB2bOrderFileResp"
-    //             }
-    //           }
-    //         }
-    //       },
-    //       "404": {
-    //         "description": "找不到资源"
-    //       }
-    //     }
-    //   }
-    // },
     "/order-declaration/open/uploadOrder": {
       "post": {
         "tags": [
