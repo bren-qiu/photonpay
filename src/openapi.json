@@ -637,7 +637,7 @@
         }
       }
     },
-    "payment/css/logisticsInfo/modify": {
+    "/payment/css/logisticsInfo/modify": {
       "post": {
         "tags": [
           "其他交易类型"
@@ -914,7 +914,7 @@
             "explode": true,
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -926,7 +926,7 @@
             "explode": true,
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -1241,14 +1241,6 @@
         }
       }
     },
-    "收款人文件上传": {
-      "post": {
-        "tags": ["收款人"],
-        "summary": "文件上传",
-        "description": "文件上传接口，businessKey值为Payout。参考 [**<u>(文件上传)</u>**](#tag/文件/paths/~1file~1apiUpload~1{businessKey}/post)"
-
-      }
-    },
 
     "/wallet/deal/open/trade/V2/order/list": {
       "get": {
@@ -1266,7 +1258,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -1277,7 +1269,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -1590,7 +1582,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -1601,7 +1593,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -2265,7 +2257,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -2276,7 +2268,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -2309,7 +2301,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -2320,7 +2312,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -2614,7 +2606,7 @@
             "style": "simple",
             "explode": false,
             "schema": {
-              "type": "string(64)"
+              "type": "string"
             }
           },
           {
@@ -2625,7 +2617,7 @@
             "style": "simple",
             "explode": false,
             "schema": {
-              "type": "string(64)"
+              "type": "string"
             }
           },
           {
@@ -2636,7 +2628,7 @@
             "style": "simple",
             "explode": false,
             "schema": {
-              "type": "string(64)"
+              "type": "string"
             }
           },
           {
@@ -2647,7 +2639,7 @@
             "style": "simple",
             "explode": false,
             "schema": {
-              "type": "string(240)"
+              "type": "string"
             }
           },
           {
@@ -2658,7 +2650,7 @@
             "style": "simple",
             "explode": false,
             "schema": {
-              "type": "string(3)"
+              "type": "string"
             }
           },
           {
@@ -2730,7 +2722,7 @@
             "style": "simple",
             "explode": false,
             "schema": {
-              "type": "string(64)"
+              "type": "string"
             }
           },
           {
@@ -2741,7 +2733,7 @@
             "style": "simple",
             "explode": false,
             "schema": {
-              "type": "string(64)"
+              "type": "string"
             }
           },
           {
@@ -2812,7 +2804,7 @@
             "style": "simple",
             "explode": false,
             "schema": {
-              "type": "string(3)"
+              "type": "string"
             }
           },
           {
@@ -2929,7 +2921,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -2940,7 +2932,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -3095,7 +3087,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -3106,7 +3098,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -3226,7 +3218,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -3237,7 +3229,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -3377,7 +3369,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -3388,7 +3380,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -3670,7 +3662,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -3681,7 +3673,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -4033,7 +4025,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -4044,7 +4036,7 @@
             "style": "form",
             "schema": {
               "type": "string",
-              "format": "date-time"
+              "format": "string"
             }
           },
           {
@@ -6926,7 +6918,7 @@
           "date": {
             "type": "string",
             "description": "交易时间，动账具体时间",
-            "format": "date-time",
+            "format": "string",
             "example": "1609724665000"
           },
           "amount": {
@@ -6966,7 +6958,7 @@
         "type": "object",
         "properties": {
           "returnTime": {
-            "type": "date-time",
+            "type": "string",
             "description": "余额查询时间",
             "example": "1609724665000"
           },
@@ -7306,7 +7298,7 @@
           "checkTime": {
             "type": "string",
             "description": "审核时间",
-            "format": "date-time"
+            "format": "string"
           },
           "checkRemark": {
             "type": "string",
@@ -7863,27 +7855,23 @@
         "properties": {
           "memberNo": {
             "type": "string",
-            "description": "会员编号",
-            "refType": null
+            "description": "会员编号"
           },
           "plateFormList": {
             "type": "array",
             "description": "电商平台list",
             "items": {
               "type": "string"
-            },
-            "refType": "string"
+            }
           },
           "plateFormListSize": {
             "type": "integer",
             "description": "电商平台list条目总数",
-            "format": "int64",
-            "refType": null
+            "format": "int64"
           },
           "reqNo": {
             "type": "string",
-            "description": "请求序列号 唯一",
-            "refType": null
+            "description": "请求序列号 唯一"
           }
         }
       },
@@ -7898,18 +7886,15 @@
         "properties": {
           "productName": {
             "type": "string",
-            "description": "商品名称 限200字符",
-            "refType": null
+            "description": "商品名称 限200字符"
           },
           "productPrice": {
             "type": "string",
-            "description": "商品价格（单位元）",
-            "refType": null
+            "description": "商品价格（单位元）"
           },
           "productNumber": {
             "type": "string",
-            "description": "商品数量",
-            "refType": null
+            "description": "商品数量"
           }
         }
       },
@@ -7925,61 +7910,50 @@
         "properties": {
           "reqNo": {
             "type": "string",
-            "description": "请求流水号 Request number (unique) String(20)",
-            "refType": null
+            "description": "请求流水号 Request number (unique) string"
           },
           "tradeType": {
             "type": "string",
-            "description": "贸易类型(01货物贸易-电商平台；02 货物贸易-B2B；03服务贸易-软件服务；04 服务贸易-物流；05 服务贸易-游戏；06 服务贸易-数娱应用类)",
-            "refType": null
+            "description": "贸易类型(01货物贸易-电商平台；02 货物贸易-B2B；03服务贸易-软件服务；04 服务贸易-物流；05 服务贸易-游戏；06 服务贸易-数娱应用类)"
           },
           "shopNo": {
             "type": "string",
-            "description": "店铺/应用编号 (仅类型为01电商平台和06数娱应用时为必填，其他场景无须填写)",
-            "refType": null
+            "description": "店铺/应用编号 (仅类型为01电商平台和06数娱应用时为必填，其他场景无须填写)"
           },
           "contractNo": {
             "type": "string",
-            "description": "合同编号 (资金入账时对应关联的合同编号，01电商和06数娱类无须填写)",
-            "refType": null
+            "description": "合同编号 (资金入账时对应关联的合同编号，01电商和06数娱类无须填写)"
           },
           "shippingStatus": {
             "type": "string",
-            "description": "发货状态，01:已发货，02:未发货 (02-B2B、04-物流，需要传入)",
-            "refType": null
+            "description": "发货状态，01:已发货，02:未发货 (02-B2B、04-物流，需要传入)"
           },
           "receipt": {
             "type": "string",
-            "description": "合同文件 (多个文件key用【,】分割)",
-            "refType": null
+            "description": "合同文件 (多个文件key用【,】分割)"
           },
           "logisticsCertificate": {
             "type": "string",
-            "description": "物流凭证文件 (02-B2B、04-物流，已发货状态下需上传，多个文件key用【,】分割)",
-            "refType": null
+            "description": "物流凭证文件 (02-B2B、04-物流，已发货状态下需上传，多个文件key用【,】分割)"
           },
           "invoice": {
             "type": "string",
-            "description": "PI/CI/发票 (多个文件key用【,】分割)",
-            "refType": null
+            "description": "PI/CI/发票 (多个文件key用【,】分割)"
           },
           "tradeAuthCertificate": {
             "type": "string",
-            "description": "交易询单证明(02-B2B、04-物流，未发货状态下如无物流凭证，需上传该字段，多个文件key用【,】分割)",
-            "refType": null
+            "description": "交易询单证明(02-B2B、04-物流，未发货状态下如无物流凭证，需上传该字段，多个文件key用【,】分割)"
           },
           "orderNumbers": {
             "type": "string",
-            "description": "订单数量",
-            "refType": null
+            "description": "订单数量"
           },
           "orderDetailList": {
             "type": "array",
             "description": "订单明细 (Detail MaxSize Limit 500)",
             "items": {
               "$ref": "#/components/schemas/OpenOrderImportDetailReq"
-            },
-            "refType": "订单明细"
+            }
           }
         }
       },
@@ -8069,49 +8043,41 @@
         "properties": {
           "reqNo": {
             "type": "string",
-            "description": "请求流水号",
-            "refType": null
+            "description": "请求流水号"
           },
           "memberNo": {
             "type": "string",
-            "description": "会员编号",
-            "refType": null
+            "description": "会员编号"
           },
           "shopNo": {
             "type": "string",
-            "description": "店铺号",
-            "refType": null
+            "description": "店铺号"
           },
           "plateForm": {
             "type": "string",
-            "description": "电商平台",
-            "refType": null
+            "description": "电商平台"
           },
           "total": {
             "type": "integer",
             "description": "订单总数",
-            "format": "int32",
-            "refType": null
+            "format": "int32"
           },
           "successCount": {
             "type": "integer",
             "description": "成功总数",
-            "format": "int32",
-            "refType": null
+            "format": "int32"
           },
           "failCount": {
             "type": "integer",
             "description": "失败数量",
-            "format": "int32",
-            "refType": null
+            "format": "int32"
           },
           "failList": {
             "type": "array",
             "description": "失败明细",
             "items": {
               "$ref": "#/components/schemas/OpenOrderImportFailResp"
-            },
-            "refType": "OpenOrderImportFailResp"
+            }
           }
         }
       },
@@ -8132,81 +8098,66 @@
         "properties": {
           "orderNo": {
             "type": "string",
-            "description": "订单号 不可超过20个字符，不可出现空格和特殊字符",
-            "refType": null
+            "description": "订单号 不可超过20个字符，不可出现空格和特殊字符"
           },
           "orderTime": {
             "type": "string",
-            "description": "订单交易时间 yyyy-MM-dd HH:mm:ss（UTC+8 北京时间）",
-            "refType": null
+            "description": "订单交易时间 yyyy-MM-dd HH:mm:ss（UTC+8 北京时间）"
           },
           "endTime": {
             "type": "string",
-            "description": "订单结束时间 yyyy-MM-dd HH:mm:ss （UTC+8 北京时间）",
-            "refType": null
+            "description": "订单结束时间 yyyy-MM-dd HH:mm:ss （UTC+8 北京时间）"
           },
           "orderAmount": {
             "type": "string",
-            "description": "订单总金额 (单位元，速卖通平台校验：订单金额=产品总金额+物流费用-店铺优惠-预计增值税)",
-            "refType": null
+            "description": "订单总金额 (单位元，速卖通平台校验：订单金额=产品总金额+物流费用-店铺优惠-预计增值税)"
           },
           "productInformation": {
             "type": "string",
-            "description": "商品信息",
-            "refType": null
+            "description": "商品信息"
           },
           "orderCurrency": {
             "type": "string",
-            "description": "订单币种 string(3)",
-            "refType": null
+            "description": "订单币种 string"
           },
           "orderStatus": {
             "type": "string",
-            "description": "订单状态 交易完成 succeed",
-            "refType": null
+            "description": "订单状态 交易完成 succeed"
           },
           "shipmentNumber": {
             "type": "string",
-            "description": "物流单号 不超过100字符 (02-B2B、04-物流，需要传入)",
-            "refType": null
+            "description": "物流单号 不超过100字符 (02-B2B、04-物流，需要传入)"
           },
           "logisticsCompany": {
             "type": "string",
-            "description": "物流商 (02-B2B、04-物流，需要传入)",
-            "refType": null
+            "description": "物流商 (02-B2B、04-物流，需要传入)"
           },
           "tradePlatform": {
             "type": "string",
-            "description": "交易来源",
-            "refType": null
+            "description": "交易来源"
           },
           "shopUrl": {
             "type": "string",
-            "description": "店铺地址 (店铺可访问的URL地址；非01电商和06数娱类已绑定店铺或应用的情况下，需要必填)",
-            "refType": null
+            "description": "店铺地址 (店铺可访问的URL地址；非01电商和06数娱类已绑定店铺或应用的情况下，需要必填)"
           },
           "shopPromotions": {
             "type": "string",
-            "description": "店铺优惠 (单位元 速卖通必填)",
-            "refType": null
+            "description": "店铺优惠 (单位元 速卖通必填)"
           },
           "logisticsCost": {
             "type": "string",
-            "description": "物流费用 (单位元 速卖通必填)",
-            "refType": null
+            "description": "物流费用 (单位元 速卖通必填)"
           },
           "addedTax": {
             "type": "string",
-            "description": "预计增值税 (单位元 速卖通必填)",
-            "refType": null
+            "description": "预计增值税 (单位元 速卖通必填)"
           },
           "productDetailList": {
             "type": "array",
             "description": "订单商品明细",
             "items": {
               "$ref": "#/components/schemas/OrderProductDetailReq"
-            },
-            "refType": "订单商品详情"
+            }
           }
         }
       },
@@ -8216,13 +8167,11 @@
         "properties": {
           "failReason": {
             "type": "string",
-            "description": "失败原因",
-            "refType": null
+            "description": "失败原因"
           },
           "orderNo": {
             "type": "string",
-            "description": "订单号",
-            "refType": null
+            "description": "订单号"
           }
         }
       },
@@ -8360,12 +8309,12 @@
           "settleTime": {
             "type": "string",
             "description": "结算时间",
-            "format": "date-time"
+            "format": "string"
           },
           "createTime": {
             "type": "string",
             "description": "交易创建时间",
-            "format": "date-time"
+            "format": "string"
           }
         }
       },
@@ -8426,27 +8375,27 @@
         "type": "object",
         "properties": {
           "requestId": {
-            "type": "string(64)",
+            "type": "string",
             "description": "商户请求流水号，每笔交易的唯一请求号，不可重复",
             "example": "RN1234567890"
           },
           "useTypeCode": {
-            "type": "string(64)",
+            "type": "string",
             "description": "全球账户的用途，详情可看全球账户附录",
             "example": "UT202205051026295881"
           },
           "currency": {
-            "type": "string(64)",
+            "type": "string",
             "description": "币种[ISO4217](https://www.iso.org/standard/46121.html)",
             "example": "USD"
           },
           "country": {
-            "type": "string(10)",
+            "type": "string",
             "description": "地区二字码",
             "example": "US"
           },
           "nickName": {
-            "type": "string(240)",
+            "type": "string",
             "description": "全球账户的昵称，最大长度不能超过240位",
             "example": "Nick Name"
           }
@@ -8554,17 +8503,17 @@
         "type": "object",
         "properties": {
           "requestId": {
-            "type": "String(64)",
+            "type": "string",
             "description": "商户请求流水号，每笔交易的唯一请求号，不可重复。requestId和applicationId至少一个不为空",
             "example": "RN12356789"
           },
           "applicationId": {
-            "type": "string(64)",
+            "type": "string",
             "description": "预下单返回的平台申请单号，唯一。requestId和applicationId至少一个不为空",
             "example": "AN123456789"
           },
           "accountNo": {
-            "type": "string(64)",
+            "type": "string",
             "description": "钱包的账户编号，当申请类型为线上购买时必填",
             "example": "FA-USD123456780"
           }
@@ -9022,7 +8971,7 @@
           "rateTime": {
             "type": "string",
             "description": "查汇时间",
-            "format": "date-time"
+            "format": "string"
           }
         }
       },
@@ -9108,7 +9057,7 @@
           "tradeDate": {
             "type": "string",
             "description": "交易日期",
-            "format": "date-time"
+            "format": "string"
           },
           "tradeStatus": {
             "type": "string",
@@ -9122,7 +9071,7 @@
           "deliveryDate": {
             "type": "string",
             "description": "交割日期",
-            "format": "date-time"
+            "format": "string"
           },
           "deliveryStatus": {
             "type": "string",
@@ -9260,7 +9209,7 @@
           "rateTime": {
             "type": "string",
             "description": "报价时间",
-            "format": "date-time"
+            "format": "string"
           },
           "rateTtl": {
             "type": "integer",
@@ -9402,7 +9351,7 @@
           "tradeDate": {
             "type": "string",
             "description": "交易日期",
-            "format": "date-time"
+            "format": "string"
           },
           "tradeStatus": {
             "type": "string",
@@ -9622,7 +9571,7 @@
         "type": "object",
         "properties": {
           "idType": {
-            "type": "string(20)",
+            "type": "string",
             "description": "ID类型",
             "enum": [
               "member",
@@ -9630,13 +9579,13 @@
             ]
           },
           "idValue": {
-            "type": "string(64)",
+            "type": "string",
             "description": "ID值"
           },
           "createdAt": {
             "type": "string",
             "description": "创建时间",
-            "format": "date-time"
+            "format": "string"
           },
           "transactionId": {
             "type": "string",
@@ -9814,13 +9763,13 @@
             "description": "会员号"
           },
           "matrixAccount": {
-            "type": "string(64)",
+            "type": "string",
             "description": "matrix账户号"
           },
           "createdAt": {
             "type": "string",
             "description": "创建时间",
-            "format": "date-time"
+            "format": "string"
           },
           "transactionId": {
             "type": "string",
@@ -10021,7 +9970,7 @@
         "type": "object",
         "properties": {
           "idType": {
-            "type": "string(20)",
+            "type": "string",
             "description": "ID类型",
             "enum": [
               "member",
@@ -10029,13 +9978,13 @@
             ]
           },
           "idValue": {
-            "type": "string(64)",
+            "type": "string",
             "description": "ID值"
           },
           "createdAt": {
             "type": "string",
             "description": "申请时间",
-            "format": "date-time"
+            "format": "string"
           },
           "referenceNo": {
             "type": "string",
@@ -10146,10 +10095,10 @@
           "createdAt": {
             "type": "string",
             "description": "创建时间",
-            "format": "date-time"
+            "format": "string"
           },
           "matrixAccount": {
-            "type": "string(64)",
+            "type": "string",
             "description": "matrix账户号"
           },
           "transactionId": {
@@ -10279,7 +10228,7 @@
           "createdAt": {
             "type": "string",
             "description": "创建时间",
-            "format": "date-time"
+            "format": "string"
           },
           "transactionId": {
             "type": "string",
@@ -10405,7 +10354,7 @@
         "type": "object",
         "properties": {
           "idType": {
-            "type": "string(20)",
+            "type": "string",
             "description": "ID类型",
             "enum": [
               "member",
@@ -10413,20 +10362,20 @@
             ]
           },
           "idValue": {
-            "type": "string(64)",
+            "type": "string",
             "description": "ID值"
           },
           "createdAt": {
             "type": "string",
             "description": "创建时间",
-            "format": "date-time"
+            "format": "string"
           },
           "cardId": {
-            "type": "string(64)",
+            "type": "string",
             "description": "卡ID"
           },
           "cardStatus": {
-            "type": "string(12)",
+            "type": "string",
             "description": "卡状态",
             "enum": [
               "normal",
@@ -10442,11 +10391,11 @@
             ]
           },
           "maskCardNo": {
-            "type": "string(32)",
+            "type": "string",
             "description": "掩码卡号"
           },
           "cardCurrency": {
-            "type": "string(3)",
+            "type": "string",
             "description": "卡本币"
           },
           "cardType": {
@@ -10466,7 +10415,7 @@
             ]
           },
           "nickname": {
-            "type": "string(255)",
+            "type": "string",
             "description": "昵称"
           },
           "cardBalance": {
@@ -10532,10 +10481,10 @@
           "createdAt": {
             "type": "string",
             "description": "创建时间",
-            "format": "date-time"
+            "format": "string"
           },
           "cardholderId": {
-            "type": "string(64)",
+            "type": "string",
             "description": "持卡人ID。"
           },
           "isLegal": {
@@ -10547,56 +10496,56 @@
             ]
           },
           "firstName": {
-            "type": "string(40)",
+            "type": "string",
             "description": "名字。"
           },
           "lastName": {
-            "type": "string(40)",
+            "type": "string",
             "description": "姓氏。"
           },
           "email": {
-            "type": "string(40)",
+            "type": "string",
             "description": "邮件。"
           },
           "mobilePrefix": {
-            "type": "string(8)",
+            "type": "string",
             "description": "手机号前缀。"
           },
           "mobile": {
-            "type": "string(11)",
+            "type": "string",
             "description": "手机号。"
           },
           "nationalityCountryCode": {
-            "type": "string(2)",
+            "type": "string",
             "description": "国籍国家码二字码。"
           },
           "residentialCountryCode": {
-            "type": "string(2)",
+            "type": "string",
             "description": "居住地国家码二字码。"
           },
           "residentialState": {
-            "type": "string(50)",
+            "type": "string",
             "description": "居住地州省。"
           },
           "residentialCity": {
-            "type": "string(50)",
+            "type": "string",
             "description": "居住地城市。"
           },
           "residentialAddress": {
-            "type": "string(100)",
+            "type": "string",
             "description": "建议填写账单地址。"
           },
           "residentialPostalCode": {
-            "type": "string(10)",
+            "type": "string",
             "description": "居住地邮编。"
           },
           "dateOfBirth": {
-            "type": "string(10)",
+            "type": "string",
             "description": "出生日期。",
             "format": "yyyy-MM-dd"
           },
           "status": {
-            "type": "string(20)",
+            "type": "string",
             "description": "持卡人状态",
             "enum": [
               "normal",
@@ -10658,11 +10607,11 @@
             ]
           },
           "cardBin": {
-            "type": "string(6)",
+            "type": "string",
             "description": "卡bin。"
           },
           "cardCurrency": {
-            "type": "string(255)",
+            "type": "string",
             "description": "卡bin支持的币种。多个币种用逗号分隔。"
           },
           "billingAddressUpdatable": {
@@ -10690,55 +10639,55 @@
         "type": "object",
         "properties": {
           "cardholderId": {
-            "type": "string(64)",
+            "type": "string",
             "description": "持卡人ID。"
           },
           "firstName": {
-            "type": "string(40)",
+            "type": "string",
             "description": "名不能包含特殊字符。"
           },
           "lastName": {
-            "type": "string(40)",
+            "type": "string",
             "description": "姓不能包含特殊字符。"
           },
           "email": {
-            "type": "string(40)",
+            "type": "string",
             "description": "邮件。"
           },
           "mobilePrefix": {
-            "type": "string(8)",
+            "type": "string",
             "description": "持卡人的电话号码（包括区号），前面加符号和1-3位的国家呼叫代码。不要包括连字符、空格或括号。"
           },
           "mobile": {
-            "type": "string(11)",
+            "type": "string",
             "description": "手机号。"
           },
           "nationalityCountryCode": {
-            "type": "string(2)",
+            "type": "string",
             "description": "国籍国家二字码"
           },
           "residentialCountryCode": {
-            "type": "string(2)",
+            "type": "string",
             "description": "居住地国家码二字码。建议填写账单地址国家码二字码。"
           },
           "residentialState": {
-            "type": "string(50)",
+            "type": "string",
             "description": "居住地州省。建议填写账单地州省。"
           },
           "residentialCity": {
-            "type": "string(50)",
+            "type": "string",
             "description": "居住地城市。建议填写账单地址所在城市。"
           },
           "residentialAddress": {
-            "type": "string(100)",
+            "type": "string",
             "description": "居住地址。建议填写账单地址。"
           },
           "residentialPostalCode": {
-            "type": "string(10)",
+            "type": "string",
             "description": "居住地邮编。建议填写账单地址所属邮编。"
           },
           "dateOfBirth": {
-            "type": "string(10)",
+            "type": "string",
             "description": "出生日期。",
             "format": "yyyy-MM-dd"
           }
@@ -10751,55 +10700,55 @@
         "type": "object",
         "properties": {
           "matrixAccount": {
-            "type": "string(64)",
+            "type": "string",
             "description": "如需在matrix下添加持卡人请填写matrix账户号 ,如不填写默认添加在member下。"
           },
           "firstName": {
-            "type": "string(40)",
+            "type": "string",
             "description": "名不能包含特殊字符。"
           },
           "lastName": {
-            "type": "string(40)",
+            "type": "string",
             "description": "姓不能包含特殊字符。"
           },
           "email": {
-            "type": "string(40)",
+            "type": "string",
             "description": "邮箱。不同持卡人邮箱不能重复。"
           },
           "mobilePrefix": {
-            "type": "string(8)",
+            "type": "string",
             "description": "持卡人的电话号码（包括区号），前面加符号和1-3位的国家呼叫代码。不要包括连字符、空格或括号。"
           },
           "mobile": {
-            "type": "string(11)",
+            "type": "string",
             "description": "手机号。不同持卡人手机号不能重复。"
           },
           "nationalityCountryCode": {
-            "type": "string(2)",
+            "type": "string",
             "description": "国籍国家码二字码。"
           },
           "residentialCountryCode": {
-            "type": "string(2)",
+            "type": "string",
             "description": "居住地国家码二字码。建议填写账单地址国家码二字码。"
           },
           "residentialState": {
-            "type": "string(50)",
+            "type": "string",
             "description": "居住地州省。建议填写账单地州省。"
           },
           "residentialCity": {
-            "type": "string(50)",
+            "type": "string",
             "description": "居住地城市。建议填写账单地址所在城市。"
           },
           "residentialAddress": {
-            "type": "string(100)",
+            "type": "string",
             "description": "居住地址。建议填写账单地址。"
           },
           "residentialPostalCode": {
-            "type": "string(10)",
+            "type": "string",
             "description": "居住地邮编。建议填写账单地址所属邮编。"
           },
           "dateOfBirth": {
-            "type": "string(10)",
+            "type": "string",
             "description": "出生日期。",
             "format": "yyyy-MM-dd"
           }
@@ -10812,15 +10761,15 @@
         "type": "object",
         "properties": {
           "requestId": {
-            "type": "String(64)",
+            "type": "string",
             "description": "商户请求流水号，每笔交易的唯一请求号，不可重复。"
           },
           "matrixAccount": {
-            "type": "string(64)",
+            "type": "string",
             "description": "如果你想在matrix下申请卡，请填写matrix账号。如果不填，就在会员下默认创建。"
           },
           "cardType": {
-            "type": "string(20)",
+            "type": "string",
             "description": "卡类型。share： 共享卡； recharge： 充值卡。",
             "enum": [
               "share",
@@ -10828,7 +10777,7 @@
             ]
           },
           "cardScheme": {
-            "type": "string(20)",
+            "type": "string",
             "description": "卡组织",
             "enum": [
               "VISA",
@@ -10836,14 +10785,14 @@
             ]
           },
           "cardCurrency": {
-            "type": "string(3)",
+            "type": "string",
             "description": "卡本币",
             "enum": [
               "USD"
             ]
           },
           "cardBin": {
-            "type": "string(6)",
+            "type": "string",
             "description": "您需要填入你想开卡的卡bin信息，目前支持的卡bin信息可在卡bin接口中查询。"
           },
           "cardExpirationDate": {
@@ -10851,7 +10800,7 @@
             "description": "卡有效期。您可填写此卡的有效期，以月为计数单位。如：您需要虚拟卡的有效期为1年，则输入“12”即可。如不上传，则由系统自动分配虚拟卡有效期。（最小12个月，最大35个月）"
           },
           "cardholderId": {
-            "type": "string(64)",
+            "type": "string",
             "description": "填入持卡人id后，虚拟卡将属于此持卡人。如不填则默认使用默认持卡人信息进行开卡。"
           },
           "maxOnPercent": {
@@ -10870,7 +10819,7 @@
             "format": "bigdecimal"
           },
           "transactionLimitType": {
-            "type": "string(20)",
+            "type": "string",
             "description": "是否限制可交易额度，默认unlimited。",
             "enum": [
               "limited",
@@ -10883,7 +10832,7 @@
             "format": "bigdecimal"
           },
           "accountId": {
-            "type": "string(64)",
+            "type": "string",
             "description": "您需要用于充值的币种钱包余额账户ID号，您可在“钱包”接口中进行查询您的账户ID。"
           },
           "rechargeAmount": {
@@ -11002,7 +10951,7 @@
         "type": "object",
         "properties": {
           "matrixAccount": {
-            "type": "string(64)",
+            "type": "string",
             "description": "matrix账户号"
           },
           "cardId": {
@@ -11101,7 +11050,7 @@
             "format": "bigdecimal"
           },
           "transactionLimitType": {
-            "type": "string(20)",
+            "type": "string",
             "description": "是否限制可交易额度",
             "enum": [
               "limited",
@@ -11122,7 +11071,7 @@
         "type": "object",
         "properties": {
           "matrixAccount": {
-            "type": "string(64)",
+            "type": "string",
             "description": "matrix账户号"
           },
           "cardId": {
@@ -11184,7 +11133,7 @@
           "createdAt": {
             "type": "string",
             "description": "创建时间",
-            "format": "date-time"
+            "format": "string"
           },
           "expirationDate": {
             "type": "string",
@@ -11230,7 +11179,7 @@
             "format": "bigdecimal"
           },
           "transactionLimitType": {
-            "type": "string(20)",
+            "type": "string",
             "description": "是否限制可交易额度",
             "enum": [
               "limited",
@@ -11269,7 +11218,7 @@
             "description": "账单地址信息中的详细地址"
           },
           "billingPostalCode": {
-            "type": "string(10)",
+            "type": "string",
             "description": "账单地址信息中的邮编"
           },
           "billingAddressUpdatable": {
@@ -11601,7 +11550,7 @@
             "format": "bigdecimal"
           },
           "transactionLimitType": {
-            "type": "string(20)",
+            "type": "string",
             "description": "是否限制可交易额度，为空时不更新",
             "enum": [
               "limited",
@@ -11638,7 +11587,7 @@
             "description": "卡ID"
           },
           "billingCountry": {
-            "type": "string(2)",
+            "type": "string",
             "description": "账单地址信息中的国家二字码，建议填写账单地址国家码二字码。"
           },
           "billingState": {
@@ -11654,7 +11603,7 @@
             "description": "账单地址信息中的详细地址，建议填写账单地址。"
           },
           "billingPostalCode": {
-            "type": "string(10)",
+            "type": "string",
             "description": "账单地址信息中的邮编，建议填写账单地址所属邮编。"
           }
         }
@@ -11674,7 +11623,7 @@
             "description": "卡ID"
           },
           "status": {
-            "type": "string(20)",
+            "type": "string",
             "description": "freeze：冻结卡；  unfreeze：解冻卡。",
             "enum": [
               "freeze",
@@ -11848,7 +11797,7 @@
           "enterpriseRegisteredDate": {
             "type": "string",
             "description": "公司注册时间，供应商企业卡必填",
-            "format": "date-time"
+            "format": "string"
           },
           "enterpriseRegisteredName": {
             "type": "string",
@@ -12042,7 +11991,7 @@
           "enterpriseRegisteredDate": {
             "type": "string",
             "description": "公司注册时间，供应商企业卡必填",
-            "format": "date-time"
+            "format": "string"
           },
           "enterpriseRegisteredName": {
             "type": "string",
@@ -12233,7 +12182,7 @@
           "checkTime": {
             "type": "string",
             "description": "审核时间",
-            "format": "date-time"
+            "format": "string"
           },
           "contactCheckRemark": {
             "type": "string",
@@ -12279,7 +12228,7 @@
           "enterpriseRegisteredDate": {
             "type": "string",
             "description": "公司注册时间",
-            "format": "date-time"
+            "format": "string"
           },
           "enterpriseRegisteredName": {
             "type": "string",
@@ -12412,7 +12361,7 @@
           "checkTime": {
             "type": "string",
             "description": "审核时间",
-            "format": "date-time"
+            "format": "string"
           },
           "contactName": {
             "type": "string",
@@ -12501,12 +12450,12 @@
           "createTime": {
             "type": "string",
             "description": "创建时间 -create time",
-            "format": "date-time"
+            "format": "string"
           },
           "endTime": {
             "type": "string",
             "description": "完成日期 -complete time",
-            "format": "date-time"
+            "format": "string"
           },
           "feeAmount": {
             "type": "number",
@@ -12656,7 +12605,7 @@
           "rateTime": {
             "type": "string",
             "description": "汇率查询时间",
-            "format": "date-time"
+            "format": "string"
           },
           "rateTtl": {
             "type": "integer",
@@ -12787,7 +12736,7 @@
           "checkTime": {
             "type": "string",
             "description": "审核时间",
-            "format": "date-time"
+            "format": "string"
           },
           "contactCheckRemark": {
             "type": "string",
@@ -13494,7 +13443,7 @@
           "completionTime": {
             "type": "string",
             "description": "完成日期 -complete time(UTC 0时间)",
-            "format": "date-time"
+            "format": "string"
           },
           "contactInfo": {
             "description": "订单收款人信息",
@@ -13503,7 +13452,7 @@
           "createTime": {
             "type": "string",
             "description": "创建时间 -create time(UTC 0时间)",
-            "format": "date-time"
+            "format": "string"
           },
           "entryDeclarationMode": {
             "type": "string",
@@ -13652,7 +13601,7 @@
           "completionTime": {
             "type": "string",
             "description": "完成日期 -complete time(UTC 0时间)",
-            "format": "date-time"
+            "format": "string"
           },
           "contactInfo": {
             "description": "订单收款人信息",
@@ -13661,7 +13610,7 @@
           "createTime": {
             "type": "string",
             "description": "创建时间 -create time(UTC 0时间)",
-            "format": "date-time"
+            "format": "string"
           },
           "entryDeclarationMode": {
             "type": "string",
@@ -13748,7 +13697,7 @@
           "completionTime": {
             "type": "string",
             "description": "完成日期 -complete time(UTC 0时间)",
-            "format": "date-time"
+            "format": "string"
           },
           "contactInfo": {
             "description": "订单收款人信息",
@@ -13757,7 +13706,7 @@
           "createTime": {
             "type": "string",
             "description": "创建时间 -create time(UTC 0时间)",
-            "format": "date-time"
+            "format": "string"
           },
           "entryDeclarationMode": {
             "type": "string",
@@ -13978,7 +13927,7 @@
         "type": "object",
         "properties": {
           "matrixAccountName": {
-            "type": "String(64)",
+            "type": "string",
             "description": "matrix账户昵称",
             "enum": [
               "xxx"
@@ -14060,7 +14009,7 @@
           "createdAt": {
             "type": "string",
             "description": "创建时间",
-            "format": "date-time"
+            "format": "string"
           },
           "matrixAccount": {
             "type": "string",
@@ -14082,14 +14031,14 @@
         "type": "object",
         "properties": {
           "matrixAccount": {
-            "type": "String(64)",
+            "type": "string",
             "description": "",
             "enum": [
               "xxx"
             ]
           },
           "transferType": {
-            "type": "String(64)",
+            "type": "string",
             "description": "'transfer_in'代表资金从会员转入matrix账户，'transfer_out'代表资金从matrix账户转入会员",
             "enum": [
               "transfer_in",
@@ -14105,7 +14054,7 @@
             ]
           },
           "currency": {
-            "type": "String(3)",
+            "type": "string",
             "description": "转账币种",
             "enum": [
               "USD"
