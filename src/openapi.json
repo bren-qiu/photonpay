@@ -12740,7 +12740,6 @@
         "description": "分页响应字段"
       },
 
-      // contact V2
       "OpenV2ContactDetailResp": {
         "title": "OpenV2ContactDetailResp",
         "type": "object",
@@ -14187,7 +14186,6 @@
       "tags": [
         "店铺管理",
         "还原申报订单上传",
-//        "收款查询",
         "全球账户",
         "全球账户附录"
       ]
