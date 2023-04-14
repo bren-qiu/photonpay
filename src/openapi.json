@@ -2234,7 +2234,6 @@
           "收款查询"
         ],
         "summary": "入账记录查询",
-        "description": "入账记录查询",
         "description": "店铺相关收款业务入账结算信息及状态查询",
         "parameters": [
           {
