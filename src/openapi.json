@@ -1,4 +1,4 @@
-var _json = {
+{
   "openapi": "3.0.0",
   "info": {
     "title": "光子易开放平台接口文档",
